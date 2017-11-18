@@ -3,7 +3,6 @@ xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myObj = JSON.parse(this.responseText);
        var divForInserting = document.getElementById("section_for_Work_ops");
-       alert(myObj.Trabajos.length)
        for (var i = myObj.Trabajos.length - 1; i >= 0; i--) {
        	
        	var objectInsedOf = myObj.Trabajos[i]

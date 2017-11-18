@@ -1,11 +1,12 @@
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "Jsons/clientes.json", true);
 xmlhttp.send();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
+xmlhttp.onreadystatechange = function() 
+{
+    if (this.readyState == 4 && this.status == 200) 
+    {
         var myObj = JSON.parse(this.responseText);
-        alert(myObj.Clientes.length);
-        var divForInserting = document.getElementById("section_for_Clients");
+        var divForInserting = document.getElementById("section_for_Partners");
        	for (var i = myObj.Clientes.length - 1; i >= 0; i--) {
        		var objInside = myObj.Clientes[i]
        		var divContainer = document.createElement('div');
