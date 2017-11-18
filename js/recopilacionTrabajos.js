@@ -8,9 +8,11 @@ xmlhttp.onreadystatechange = function() {
        	
        	var objectInsedOf = myObj.Trabajos[i]
        	var node = document.createElement('div');
+       	node.className = "container down";
        	divForInserting.appendChild(node)
        	var namec = document.createElement('h4');
        	namec.innerHTML = objectInsedOf.Name;
+       	namec.className = "titulo_trabajo";
        	node.appendChild(namec);
        	var image = document.createElement('img');
        	image.src = objectInsedOf.image;

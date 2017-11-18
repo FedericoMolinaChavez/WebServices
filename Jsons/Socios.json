@@ -1,13 +1,13 @@
 {
 	"SociosDeNegocio" : 
-		{
-			"PSL" : {
+		[
+			{
 			"Name" : "PSL",
 			"Mojo" : "
 						PSL es una empresa de desarrollo de software ágil, especializada en ofrecer servicios de TI desde sus centros de desarrollo en Latinoamérica. Nuestro equipo de 500+ colaboradores y desarrolladores de software, es pionero en la adopción de mejores prácticas de ingeniería de Software (desarrollo ágil, SCRUM) y es el principal exportador Colombiano de Servicios de software hacia EEUU.",
 			"Logo" : "images/psl.jpg"
 			},
-			"innova4j" : 
+			 
 			{
 				"Name" : "Innova4j",
 				"Mojo" : "Desarrollo de Software ágil
@@ -15,11 +15,11 @@
 						Expertos en soluciones empresariales de talla mundial",
 				"Logo" : "images/inov4j.jpg"
 			},
-			"fireos":
+			
 			{
 				"Name" : "FireOS",
 				"Mojo" : "FireOS SAS es una de las empresas de desarrollo de software que se especializa en la creación de software a la medida, ya sea en forma de aplicaciones estándar, web, aplicaciones móviles o sistemas de información más avanzados.",
 				"Logo" : "images/fireos.jpg"
 			}	
-		}
+		]
 }

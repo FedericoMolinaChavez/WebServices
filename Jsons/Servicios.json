@@ -1,7 +1,6 @@
 {
 "Solutions" : 
-	{
-		"Digital-Design-Services" : 
+	[
 			{
 				"Name" : "Digital Design Services",
 				"Growth-strat" : "Growth strategy",
@@ -11,7 +10,7 @@
 				"image" : "images/digides.jpg"
 
 			},
-		"Software-Product-Development" : 
+		
 			{
 				"Name" : "Software Product Development",
 				"Cognitive-ser" : "Cognitive Services",
@@ -23,13 +22,15 @@
 				"image" : "images/SoftProdDev.jpg"
 
 			},
-		"Software-Frameworks-Solutions" : 
+		
 			{
 				"Name" : "Software Frameworks & Solutions",
 				"SoftFrame":"Software Frameworks",
 				"sols":"Solutions",
 				"image" : "images/SoftFrameSol.jpg"
 			}
+	]
+		
 
-	}
+	
 }
