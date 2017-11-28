@@ -6,18 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_IsjJhpBCuNvhTNlyW1gdC");
+   })();
+</script>
 </head>
 <body>
-<nav>
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="services.html">services</a></li>
-		<li><a href= "aboutus.html">about us</a></li>
-		<li><a href="story.html"> Storys of success</a></li>
-	</ul>
-</nav>
+    
+    <nav class="navbar navbar-toggleable-md navbar-light bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Menú</a>
 
-<h1>About S&C developments</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="aboutus.html">about us</a>
+            </li>
+            <li class = "nav-item">
+            	<a class="nav-link disabled" href="story.html">Storys of success</a>
+            </li>
+            <li class = "nav-item">
+            	<a class="nav-link disabled" href="resources.html">videos</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+<div class="container-fluid">
+	<h1>About S&C developments</h1>
 <article>
 	<h4>Our history</h4>
 	<img src="">
@@ -68,14 +99,26 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</article>
+
+</div>
+
 	<div id = "section_for_Work_ops">
 	<p id = "algo"></p>
-		<form>
-			<input type="text" name="Name">
-			<input type="text" name="Last name">
-			<input type="text" name="Desired job">
-			<input type="submit" name="Submit">
-		</form>
+		  <section id="left">
+      <label for="form_name">Name</label>
+      <input name="form_name" id="form_name" type="text" >
+
+      <label for="form_email">Email</label>
+      <input name="form_email" id="form_email" type="email" >
+   </section>
+
+   <section id="right">
+      <label for="form_msg">Message</label>
+      <textarea name="form_msg" id="form_msg"></textarea>
+      <input id="submit" class="button" name="submit" type="submit" value="Send">
+   </section>
+
+</form>
 	</div>
 </section>
 
@@ -88,5 +131,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src = "js/recopilacionTrabajos.js"></script>
+<script src = "js/mailfunction.js"
 </body>
 </html>
