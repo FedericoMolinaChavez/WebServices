@@ -6,7 +6,7 @@ xmlhttp.onreadystatechange = function()
     if (this.readyState == 4 && this.status == 200) 
     {
         var myObj = JSON.parse(this.responseText);
-        var divForInserting = document.getElementById("section_for_Partners");
+        var divForInserting = document.getElementById("section_for_Clients");
        	for (var i = myObj.Clientes.length - 1; i >= 0; i--) {
        		var objInside = myObj.Clientes[i]
        		var divContainer = document.createElement('div');
