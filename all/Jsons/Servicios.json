@@ -1,0 +1,36 @@
+{
+"Solutions" : 
+	[
+			{
+				"Name" : "Digital Design Services",
+				"Growth-strat" : "Growth strategy",
+				"Experience-st" : "Experience strategy",
+				"Prod-Ser-Des" : "Product and service design",
+				"Prod-real" : " Product Realization",
+				"image" : "images/digides.jpg"
+
+			},
+		
+			{
+				"Name" : "Software Product Development",
+				"Cognitive-ser" : "Cognitive Services",
+				"HighVel" : "High Velocity Devops",
+				"SDN-NFV" : "SDN/NFV-Powered Products",
+				"SecEng" : "Security Engineering",
+				"prodDevSer" : "Product Development Services",
+				"CloBasDep" : "Cloud-Based Deployment",
+				"image" : "images/SoftProdDev.jpg"
+
+			},
+		
+			{
+				"Name" : "Software Frameworks & Solutions",
+				"SoftFrame":"Software Frameworks",
+				"sols":"Solutions",
+				"image" : "images/SoftFrameSol.jpg"
+			}
+	]
+		
+
+	
+}

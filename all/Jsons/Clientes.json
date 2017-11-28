@@ -1,0 +1,40 @@
+{
+	"Clientes" : 
+	[
+		
+		{
+			"id" : "110234",
+			"Name" : "Carvajal S.A",
+			"Description" : "We have worked developing quality software for this company",
+			"image" : "images/Carvajal.jpg"
+		},
+		
+		{
+			"id" : "110235",
+			"Name" : "Tecnoquimicas S.A",
+			"Description" : "Tecnoquimicas is a famous pharma company. Our work consists in finding software applications for them.",
+			"image" : "images/tecnoquimicas.png"
+		},
+	
+		{
+			"id" : "110236",
+			"Name" : "Falabella S.A",
+			"Description" : "We have worked developing quality software for this company",
+			"image" : "images/Falabella.jpg"
+		},
+		
+		{
+			"id" : "110237",
+			"Name" : "Jumbo S.A",
+			"Description" : "We have worked developing quality software for this company",
+			"image" : "images/Jumbo.jpg"
+		},
+	 
+		{
+			"id" : "110238",
+			"Name" : "Pontificia Universidad Javeriana Cali",
+			"Description" : "We have worked developing quality software for this company",
+			"image" : "images/PUJ.jpg"
+		}
+	]
+}

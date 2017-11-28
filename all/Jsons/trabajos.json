@@ -1,0 +1,13 @@
+{ "Trabajos" : [
+		
+			{
+				"image" : "images/Developer.png",
+				"Name" : "Developer"
+			},
+			
+			{
+				"image" : "images/designerpng.png",
+				"Name" : "Designer"
+			}
+	]		
+}
