@@ -1,0 +1,15 @@
+#section_for_Clients p, h3{
+	text-align: center;
+	margin: 15px;
+}
+
+#section_for_Clients img{
+	width: 100%;
+	height: 250px;
+	max-width: 280px;
+	margin-top: 10px;
+	display : flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-left: 40%;
+}
